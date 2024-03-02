@@ -1,0 +1,200 @@
+*{
+    margin-left: 1px;
+    padding: 0px;
+}
+.header{
+    background: #34495e;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+.image{
+    height: 671px;
+    width: auto;
+}
+.top{
+    margin-top: 22px;
+    text-align: center;
+    margin-left: 155px;
+    color: white;
+}
+.back-bolor{
+    background-color: #cc701e;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 85px;
+    margin-right: 590px;
+    border-radius: 0px 35px 35px 0px;
+    box-shadow: -3px 0px 0px 0px rgba(0, 32, 2, 0.733);
+}
+.item{
+    margin-left: 85px;
+    color: white;
+}
+.www{
+    text-align: center;
+    color: white;
+}
+.section-1{
+    background-color: #0d6efd;
+}
+.back{
+    background-color: #1abc9c;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 590px;
+    margin-right: 78px;
+    margin-bottom: 30px;
+    border-radius: 35px 0px 0px 35px;
+    box-shadow: 3px 0px 0px 0px rgba(0, 32, 2, 0.733);
+}
+.item-2{
+    margin-left: 85px;
+    color: white;
+}
+.www-1{
+    text-align: center;
+    color: white;
+}
+.tops{
+    margin-top: 22px;
+    text-align: center;
+    margin-left: 155px;
+    color: white;
+}
+.flags{
+    text-align: center;
+    padding: 34px 0px;
+    color: white;
+}
+.color{
+    background-color: #34495e;
+    height: 1110px;
+}
+.bangladesh{
+    height: 170px;
+    width: 295px;
+    background-color: green;
+    position: relative;
+    top: 0px;
+    left: 362px;
+    box-shadow: 3px 4px 8px 2px #747373;
+}
+.bangladesh-red{
+    position: absolute;
+    top: 30px;
+    left: 97px;
+    height: 110px;
+    width: 100px;
+    background-color: red;
+    border-radius: 100px 100px;
+}
+.bangladesh-contemt{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-size: 27px;
+}
+.england{
+    height: 170px;
+    width: 295px;
+    background-color: white;
+    position: relative;
+    top: 31px;
+    left: 363px;
+    box-shadow: 3px 3px 4px 3px rgba(0, 0, 255, 0.199);
+}
+.england-line{
+    height: 170px;
+    width: 20px;
+    position: absolute;
+    top: 0px;
+    left: 215px;
+    background-color: red;
+}
+.england-line-1{
+    height: 25px;
+    width: 295px;
+    position: absolute;
+    top: 70px;
+    left: -1px;
+    background-color: red;
+}
+.england-content{
+    position: relative;
+    top: 180px;
+    left: 72px;
+    color: white;
+}
+.japan{
+    height: 170px;
+    width: 295px;
+    background-color: white;
+    position: relative;
+    top: 110px;
+    left: 363px;
+    box-shadow: 0px 0px 0px 3px black;
+}
+.japan-red{
+    position: absolute;
+    top: 30px;
+    left: 97px;
+    height: 110px;
+    width: 100px;
+    background-color: red;
+    border-radius: 100px 100px;
+}
+.japan-content {
+    position: relative;
+    top: 130px;
+    left: 443px;
+    color: white;
+    display: inline-block;
+}
+.Garmany{
+    height: 170px;
+    width: 295px;
+    background-color: white;
+    position: relative;
+    top: 148px;
+    left: 363px;
+    box-shadow: 3px 4px 8px 2px #747373;
+}
+.colors-1{
+    height: 56.666666667px;
+    width: 295px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: -1px;
+}
+.colors-2{
+    height: 56.666666667px;
+    width: 295px;
+    background-color: red;
+    position: absolute;
+    top: 57px;
+    left: -1px;
+}
+.colors-3{
+    height: 56.666666667px;
+    width: 295px;
+    background-color: yellow;
+    position: absolute;
+    top: 113px;
+    left: -1px;
+}
+.garmany-content{
+    position: relative;
+    top: 165px;
+    left: 443px;
+    color: white;
+    display: inline-block;
+}
+footer{
+    background-color: #198754;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+}
