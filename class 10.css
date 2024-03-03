@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header-image{
+    height: 40px;
+    width: auto;
+    position: relative;
+    top: 11px;
+    left: 485px;
+}
+header{
+    background-color: #2e219a;
+    height: 70px;
+}
+.menu{
+    background-color: red;
+    height: 50px;
+    transition: all 0.5s;
+}
+.menu ul{}
+.menu ul li{
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 11px;
+    left: 270px;
+    padding-left: 15px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.menu-all{}
+.menu:hover{
+    background-color: green;
+}
+.menu ul li:hover{
+    color: #0093e2; 
+    text-decoration: underline;
+}
+.co{
+    background: url(https://png.pngtree.com/background/20210709/original/pngtree-simple-creative-background-design-in-the-sky-picture-image_940762.jpg);
+    height: 350px;
+    width: 1009px;
+}
+.co h2{
+    text-align: center;
+    color: white;
+    padding: 120px;
+}
+.co p{
+    text-align: center;
+    color: white;
+    margin-top: -100px;
+
+}
+.co h3{
+    text-align: center;
+    background-color: green;
+    color: white;
+    display: inline-block;
+    position: relative;
+    top: 11px;
+    left: 457px;
+    cursor: pointer;
+    padding: 10px 13px;
+    font-size: 20px;
+}
+.all-join{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7SLlzFFsMYRJ8d7Bh-hGAuHTKAOIW_zZKzrKaMRuZNg&s);
+    height: 350px;
+    width: 1009px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.join{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 80px;
+    left: 0px;
+    background-color: green;
+}
+.join-1{
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+}
+.join-link{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 20px;
+    position: relative;
+    top: 0px;
+    left: 439px;
+    display: inline-block;
+    padding: 11px 10px;
+    background-color: black;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    background-color: lightslategrey;
+    padding: 20px;
+}
+.cont{
+    background-color: #4ab75c;
+    height: 600px;
+}
+.cont h2{
+    text-align: center;
+}
+.cont img{
+    text-align: center;
+}
+.cont h3{
+    text-align: center;
+    
+}
+.cont p{
+    text-align: center;
+}
+.img-right{
+    position: relative;
+    top: 0px;
+    left: 762px;
+}
