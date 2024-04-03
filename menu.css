@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* body{
+    background-color: black;
+} */
+.menu{
+    background-color: #3498db;
+}
+.menu ul{
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding: 12px 20px;
+    color: white;
+    border-right: 1px solid #34495e;
+}
+.menu ul li:first-child{
+    border-left: 1px solid #34495e;
+}
+.menu ul li a:hover{
+    background-color: #34495e62;
+}
+.dropdown{
+    margin-top: 50px;
+    background-color: #3498db;
+}
+.dropdown ul{
+    text-align: center;
+}
+.dropdown ul li{
+    display: inline-block;
+    margin-left: -4px;
+    position: relative;
+}
+.dropdown ul li a{
+    text-decoration: none;
+    padding: 12px 30px;
+    display: block;
+    font-size: 20px;
+    color: white;
+    border-right: 1px solid #34495e;
+}
+.dropdown ul li:first-child{
+    border-left: 1px solid #34495e;
+}
+.dropdown ul li:hover > a{
+    background-color: #34495e62;
+}
+
+.dropdown ul li ul li:first-child{
+    border-left: none;
+}
+.dropdown ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+}
+.dropdown ul li ul li{
+    background-color: #3498db;
+}
+.dropdown ul li ul li a{
+    color: white;
+    border: none;
+}
+.dropdown ul li:hover .hover{
+    opacity: 1;
+    visibility: visible;
+}
+.view-menu{
+    opacity: 0 !important;
+    visibility: hidden !important;
+    background-color: #3498db !important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.dropdown li:hover .view-menu{
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.social-memu{
+    margin-top: 50px;
+    text-align: center;
+}
+.social-memu ul li{
+    display: inline-block;
+}
+.social-memu ul li a{
+    font-size: 30px;
+    background-color: #3498db;
+    height: 80px;
+    width: 80px;
+    display: block;
+    line-height: 80px;
+    border-radius: 100%;
+    margin-left: 30px;
+    transition: all 0.2s;
+}
+.social-memu ul li a:hover{
+    background-color: transparent;
+    color: green;
+}
+.rs{
+    opacity: 0;
+    visibility: hidden;
+    margin-left: 150px;
+}
+.view-menu li:hover .rs{
+    opacity: 1;
+    visibility: visible;
+}
+.abc{
+    opacity: 0;
+    visibility: hidden;
+    margin-left: 150px;
+}
+.rs li:hover .abc{
+    opacity: 1;
+    visibility: visible;
+}
+.style-menu{
+    margin-top: 100px;
+}
+.style-menu ul{
+    text-align: center;
+}
+.style-menu ul li{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    line-height: 150px;
+    border-radius: 100%;
+}
+.style-menu ul li a{
+    font-size: 30px;
+    padding: 10px 10px;
+    display: block;
+}
+.style-menu ul li a :hover{
+    font-size: 80px;
+    transition: all 0.2s;
+}
+.style-menu ul li a:nth-child(1) i:hover{
+    color: #0866ff;
+}
+.style-menu ul li a:nth-child(2) i:hover{
+    color: red;
+}
+.style-menu ul li a:nth-child(3) i:hover{
+    color: green;
+}
+.style-menu ul li a:nth-child(4) i:hover{
+    color: #b83cca;
+}
+.style-menu ul li a:nth-child(5) i:hover{
+    color: yellow;
+}
+.hover-menu{
+    margin-top: 100px;
+}
+.bottom-menu{
+    text-align: center;
+}
+.bottom-menu li{
+    display: inline-block;
+}
+.bottom-menu li a{
+    font-size: 40px;
+    margin-left: 50px;
+    /* transition: all 0.3s; */
+}
+/* .bottom-menu li a:nth-child(1){
+    color: #34495e;
+} */
+/* .bottom-menu li a:hover{
+    border-top: none;
+    border-bottom: 3px solid white;
+    color: red;
+} */
+.bottom-menu li:nth-child(1) a{
+    color: #34495e;
+    border-top: 3px solid #0866ff;
+}
+.bottom-menu li:nth-child(2) a{
+    color: #34495e;
+    border-top: 3px solid red;
+}
+.bottom-menu li:nth-child(3) a{
+    color: #34495e;
+    border-top: 3px solid green;
+}
+.bottom-menu li:nth-child(4) a{
+    color: #34495e;
+    border-top: 3px solid #b83cca;
+}
+.bottom-menu li:nth-child(5) a{
+    color: #34495e;
+    border-top: 3px solid yellow;
+}
+
+.bottom-menu li:nth-child(1) a:hover{
+    color: #0866ff;
+    border-bottom: 3px solid #34495e;
+    border-top: none;
+}
+.bottom-menu li:nth-child(2) a:hover{
+    color: red;
+    border-bottom: 3px solid #34495e;
+    border-top: none;
+}
+.bottom-menu li:nth-child(3) a:hover{
+    color: green;
+    border-bottom: 3px solid #34495e;
+    border-top: none;
+}
+.bottom-menu li:nth-child(4) a:hover{
+    color: #b83cca;
+    border-bottom: 3px solid #34495e;
+    border-top: none;
+}
+.bottom-menu li:nth-child(5) a:hover{
+    color: yellow;
+    border-bottom: 3px solid #34495e;
+    border-top: none;
+}
